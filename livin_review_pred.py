@@ -50,9 +50,9 @@ from langdetect import detect
 import warnings
 warnings.filterwarnings(action='ignore')
 
-st.header('Milestone 2 Phase 2')
-st.write("Nama: Mitra Marona Putra Gurusinga")
-st.write("Batch: HCK 006")
+st.header('Livin Mandiri Reviews Sentiment')
+st.write("Created by: Mitra Marona Putra Gurusinga")
+st.write("NLP Project")
 
 def preprocess_text(text):
     text = contractions.fix(text)
@@ -81,6 +81,7 @@ st.title('Model Prediction Livin Mandiri App Review Sentiment')
 st.write('Please input your review')
 st.write('NOTE = Only support Indonesian OR English')
 st.write('NOTE = Please refresh if the Predict Button does not translate your review to english')
+st.write('NOTE = This model is limited, because the model just train with Livin Mandiri App Reviews')
 # Input data
 teks = st.text_area('Review Text')
 
