@@ -1,0 +1,13 @@
+pandas
+nltk
+joblib
+matplotlib
+seaborn
+feature_engine
+statsmodels
+contractions
+scikit-learn==1.2.2
+tensorflow==2.12.0
+keras==2.12.0
+googletrans==4.0.0-rc1
+langdetect
