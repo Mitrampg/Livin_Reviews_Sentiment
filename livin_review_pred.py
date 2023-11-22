@@ -84,7 +84,7 @@ st.write('NOTE = Please refresh if the Predict Button does not translate your re
 # Input data
 teks = st.text_area('Review Text')
 
-model = joblib.load("livin_app_review_pred.pkl")
+model = joblib.load("livin_review_pred.pkl")
 
 if st.button('Predict'):
     # Translasi jika bahasa bukan Inggris
